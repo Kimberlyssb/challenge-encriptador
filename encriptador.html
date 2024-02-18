@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container-left">
+            <div>
+                <div class="logo">
+                    <img src="imagenes/Logo.png" alt="logo alura"/>
+                </div>
+                
+                <input id="textoParaEncriptar" type="text" class="textoParaEncriptar" placeholder="Ingrese el texto aquí">
+            </div>
+    
+            <div>
+                <p class="delimitantes">Solo letras minúscuras y sin acentos</p>
+    
+                <div>
+                 <input type="submit" value="Encriptar" class="encriptar" id="encriptar">
+                 <input type="submit" value="Desencriptar" class="desencriptar" id="desencriptar">
+                </div>
+            </div>
+        </div>
+
+        <div class="cuadroResultado" id="cuadroResultado">
+            <img src="imagenes/Muñeco.png" class="muñeco" alt="persona buscando" id="muñeco">
+            <p class="noMensaje" id="noMensaje">Ningún mensaje ha sido encontrado</p>
+            <button class="copiar" id="botonCopiar">Copiar</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy Kimberly Soto - 2024</p>
+    </footer>
+
+    <script src="encriptador.js"></script>
+    
+</body>
+
+</html>

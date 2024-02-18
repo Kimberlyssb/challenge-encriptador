@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #f3f5fc;
+}
+
+main {
+    display: flex;
+
+}
+
+.container-left {
+ height: 95vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;   
+}
+
+.logo{
+    width: 120px;
+    height: 48px;
+    margin-left: 40px;
+    padding-top: 40px;
+
+}
+
+.textoParaEncriptar{
+    width: 577px;
+    height: 48px;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-weight: 400px;
+    font-size: 32px;
+    color: #0a3871;
+    border: none;
+    background: #f3f5fc;
+}
+
+.delimitantes{
+    width: 205px;
+    height: 18px;
+    opacity: 80%;
+    font-size: 14px;
+    margin-top: 250px;
+    margin-left: 264px;
+    padding: 8px;
+}
+.encriptar{
+    margin-top: 10px;
+    margin-left: 240px;
+    padding: 24px;
+    width: 328px;
+    border-radius: 24px;
+    background: #0a3871;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #0a3871;
+}
+
+.encriptar:hover{
+    background: #f3f5fc;
+    border: 1px solid #0a3871;
+    color: #0a3871;
+}
+
+.desencriptar{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 24px;
+    width: 328px;
+    border-radius: 24px;
+    background: #f3f5fc;
+    color: #0a3871;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #0a3871;
+}
+
+.desencriptar:hover{
+    background: #0a3871;
+    border: 1px solid #d8dfe8;
+    color: #d8dfe8;
+}
+
+.cuadroResultado{
+    border: 1px solid #0a3871;
+    border-radius: 32px;
+    background: #ffffff;
+    width: 400px;
+    height: 500px;
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-style: bold;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.copiar{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: #0a3871;
+    width: 100px;
+    height: 40px;
+    display: none;
+    font-size: 16px;
+    font-style: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.copiar:hover{
+    background: #f3f5fc;
+    border: 1px solid #0a3871;
+    color: #0a3871;
+}
+
+footer{
+    background-color: #0a3871;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: bold;
+    padding: 10px;
+    text-align: center;
+}
