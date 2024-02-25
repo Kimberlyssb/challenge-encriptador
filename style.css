@@ -47,7 +47,7 @@ main {
 }
 .encriptar{
     margin-top: 10px;
-    margin-left: 240px;
+    margin-left: auto;
     padding: 24px;
     width: 328px;
     border-radius: 24px;
@@ -128,4 +128,16 @@ footer{
     font-style: bold;
     padding: 10px;
     text-align: center;
+}
+
+@media screen and (max-width:900px){
+    .encriptar, .desencriptar{
+        width: 45%;
+    }
+    .textoParaEncriptar{
+        width: auto;
+    }
+    main{
+        flex-direction: column;
+    }
 }
